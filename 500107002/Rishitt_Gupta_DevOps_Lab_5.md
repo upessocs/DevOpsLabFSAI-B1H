@@ -1,11 +1,11 @@
-# DevOps Lab 7
+# DevOps Lab 5
 
 ## Name: Rishitt Gupta  
 **SAP ID:** 500107002  
 **Enrollment Number:** R2142220352  
 **Batch:** Full Stack AI B1 Hons  
 
-## GIT Fork and Open-Source  
+## GIT Sub Modules  
 
 ### Steps:
 
