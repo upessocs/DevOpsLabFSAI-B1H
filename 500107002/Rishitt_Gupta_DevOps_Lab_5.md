@@ -13,7 +13,7 @@ git clone "git@github.com:rishuu42/HTMLSide.git"
 ```
 **2. Create basic HTML, CSS And JS files and add them to the respective repository**
 
-**3. ADDING SUBMODULES**
+**3. Adding Submodules**
 ```
     git submodule add "git@github.com:rishuu42/CSSSide.git"
     git submodule add "git@github.com:rishuu42/JSSide.git"
@@ -61,3 +61,5 @@ git clone "git@github.com:rishuu42/HTMLSide.git"
     git commit -m "CSS updates"
     git push
 ```
+
+**11. Done**
