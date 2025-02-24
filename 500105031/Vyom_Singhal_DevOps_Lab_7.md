@@ -1,8 +1,10 @@
 # DevOps Lab 7
 
-## Name: Rishitt Gupta
-**SAP ID:** 500107002
-**Roll Number:** R2142220352
+## Name: Vyom Singhal
+**SAP ID:** 500105031
+
+**Roll Number:** R2142220212
+
 **Batch:** Full Stack AI B1 Hons
 
 ## GIT Fork and Open-Source
