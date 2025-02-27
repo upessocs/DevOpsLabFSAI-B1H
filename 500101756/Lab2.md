@@ -89,7 +89,7 @@ wsl ls -la
 
 Access your Windows files from the WSL terminal using the `/mnt/c/` directory:
 ```sh
-cd /mnt/c/Users/YourUsername
+cd /mnt/c/Users/jaanh
 ls
 ```
 
