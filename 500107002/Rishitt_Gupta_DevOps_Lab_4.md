@@ -50,3 +50,4 @@ Undo changes (hard reset):
 ```
 git reset --hard <commit-hash>  
 ```
+Link For Lab 5 - [Lab 5](./Rishitt_Gupta_DevOps_Lab_5.md)

@@ -32,3 +32,5 @@ git push origin main
 - **Faster releases** with automation.  
 - **Fewer bugs** through early detection.  
 - **Higher efficiency** by reducing manual work.  
+
+Link For Lab 2 - [Lab 2](./Rishitt_Gupta_DevOps_Lab_2.md)

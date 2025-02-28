@@ -46,3 +46,5 @@ cd /mnt/c/
    dism.exe /online /disable-feature /featurename:Microsoft-Windows-Subsystem-Linux
    ```
 3. Restart your PC.  
+
+Link For Lab 3 - [Lab 3](./Rishitt_Gupta_DevOps_Lab_3.md)

@@ -48,3 +48,5 @@ git push origin main
 ### **7. Wait for Review**
 - The project maintainers will review your changes.  
 - Once approved, your contributions will be merged into the main repository.
+
+Link For Lab 8 - [Lab 8](./Rishitt_Gupta_DevOps_Lab_8.md)

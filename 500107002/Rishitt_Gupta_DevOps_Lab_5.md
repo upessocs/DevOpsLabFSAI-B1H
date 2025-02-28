@@ -65,3 +65,4 @@ git add .
 git commit -m "CSS updates"  
 git push  
 ``` 
+Link For Lab 6 - [Lab 6](./Rishitt_Gupta_DevOps_Lab_6.md)

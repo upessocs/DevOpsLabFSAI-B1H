@@ -79,3 +79,4 @@ fastapi
   ```sh
   docker run -p 80:80 test02:latest
   ```
+Link For Lab 7 - [Lab 7](./Rishitt_Gupta_DevOps_Lab_7.md)
