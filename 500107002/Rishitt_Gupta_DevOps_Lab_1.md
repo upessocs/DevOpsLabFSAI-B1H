@@ -15,7 +15,7 @@ Continuous Integration (CI) and Continuous Deployment (CD) streamline software d
 - **Continuous Deployment (CD):** Code changes are automatically deployed to production after passing all tests.
 
 ## **2. Install Git & CI/CD Tools**  
-Install Git and CI/CD tools like Jenkins or GitHub Actions.  
+Install Git and CI/CD tools 
 ```sh
 sudo apt update && sudo apt install git -y
 ```
