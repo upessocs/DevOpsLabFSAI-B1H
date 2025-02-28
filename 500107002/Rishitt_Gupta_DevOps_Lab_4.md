@@ -5,7 +5,6 @@
 **Enrollment Number:** R2142220352  
 **Batch:** Full Stack AI B1 Hons  
 
-
 ## 1. **Setting Up a Project**
 - **Create a project folder:**  
   ```sh
