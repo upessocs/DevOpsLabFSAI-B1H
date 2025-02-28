@@ -7,7 +7,7 @@
 
 **Batch:** Full Stack AI B1 Hons
 
-### Git FastAPI - Dockerization  
+## Git FastAPI - Dockerization  
 
 **1. Install python3, python-pip and pipenv in WSL**
 **2. Install FastAPI and Uvicorn**
@@ -22,7 +22,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"Name": "Rishitt", "Location": "Delhi"}
+    return {"Name": "Vyom", "Location": "Faridabad"}
 
 @app.get("/{data}")
 def read_data(data: str):
