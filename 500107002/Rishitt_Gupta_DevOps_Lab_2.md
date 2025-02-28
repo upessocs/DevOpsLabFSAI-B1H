@@ -3,6 +3,12 @@
 
 WSL allows you to run Linux on Windows without a virtual machine.
 
+## Name: Rishitt Gupta  
+**SAP ID:** 500107002  
+**Enrollment Number:** R2142220352  
+**Batch:** Full Stack AI B1 Hons  
+
+---
 ## **1. Install WSL**
 Run in **PowerShell (Admin)**:  
 ```sh
