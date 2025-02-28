@@ -1,77 +1,60 @@
-# DevOps Lab 4
-# Git Branching, Merging & Rebase
+# DevOps Lab 4: Git Branching, Merging & Rebase  
 
-## Name: Rishitt Gupta  
+## Details  
+**Name:** Rishitt Gupta  
 **SAP ID:** 500107002  
 **Enrollment Number:** R2142220352  
 **Batch:** Full Stack AI B1 Hons  
 
-## 1. **Setting Up a Project**
-- **Create a project folder:**  
-  ```sh
-  mkdir project && cd project
-  ```
-- **Initialize Git:**  
-  ```sh
-  git init
-  ```
-- **Create some files:**  
-  ```sh
-  touch README.md s.txt
-  ```
+---  
 
-## 2. **Working with Files**
-- Add text to `README.md`:  
-  ```sh
-  echo "Hello World" >> README.md
-  ```
-- View the file content:  
-  ```sh
-  cat README.md
-  ```
+## 1. Setting Up a Project  
+```
+mkdir project && cd project  
+git init  
+touch README.md s.txt  
+```  
 
-## 3. **Basic Git Commands**
-- **Check status:**  
-  ```sh
-  git status
-  ```
-- **Stage changes:**  
-  ```sh
-  git add .
-  ```
-- **Commit changes:**  
-  ```sh
-  git commit -m "Initial commit"
-  ```
+## 2. Working with Files  
+```
+echo "Hello World" >> README.md  
+cat README.md  
+```  
 
-## 4. **Branching Basics**
-- **Create and switch branches:**  
-  ```sh
-  git branch featureA
-  git checkout featureA  # Switch to featureA
-  ```
-- **Shortcut for creating & switching:**  
-  ```sh
-  git checkout -b featureB
-  ```
+## 3. Basic Git Commands  
+```
+git status  
+git add .  
+git commit -m "Initial commit"  
+```  
 
-## 5. **Merging and Rebasing**
-- **Merge `featureB` into `main`:**  
-  ```sh
-  git checkout main
-  git merge featureB
-  ```
-- **Rebase `featureA` onto `main`:**  
-  ```sh
-  git checkout featureA
-  git rebase main
-  ```
-- **Undo changes (hard reset):**  
-  ```sh
-  git reset --hard <commit-hash>
-  ```
+## 4. Branching Basics  
+Create and switch branches:  
+```
+git branch featureA  
+git checkout featureA  
+```  
+Shortcut for creating & switching:  
+```
+git checkout -b featureB  
+```  
 
-## 6. **Final Thoughts**
-- Use **merge** when you want to keep branch history.  
-- Use **rebase** for a cleaner, linear history.  
-- Always **commit and push** your work frequently! 🚀  
+## 5. Merging and Rebasing  
+Merge `featureB` into `main`:  
+```
+git checkout main  
+git merge featureB  
+```  
+Rebase `featureA` onto `main`:  
+```
+git checkout featureA  
+git rebase main  
+```  
+Undo changes (hard reset):  
+```
+git reset --hard <commit-hash>  
+```  
+
+## 6. Final Thoughts  
+- **Merge** keeps branch history, **rebase** makes it linear.  
+- Always **commit and push** frequently!

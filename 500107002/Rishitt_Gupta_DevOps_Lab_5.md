@@ -1,65 +1,69 @@
-# DevOps Lab 5
+# DevOps Lab 5: Git Submodules  
 
-## Name: Rishitt Gupta  
+## Details  
+**Name:** Rishitt Gupta  
 **SAP ID:** 500107002  
 **Enrollment Number:** R2142220352  
 **Batch:** Full Stack AI B1 Hons  
 
-## GIT Sub Modules  
+---  
 
-**1. Creating the Main HTTP Repository**
+## 1. Clone the Main Repository  
 ```
 git clone "git@github.com:rishuu42/HTMLSide.git"
-```
-**2. Create basic HTML, CSS And JS files and add them to the respective repository**
+```  
 
-**3. Adding Submodules**
-```
-    git submodule add "git@github.com:rishuu42/CSSSide.git"
-    git submodule add "git@github.com:rishuu42/JSSide.git"
-```
+## 2. Add Basic Files (HTML, CSS, JS)  
 
-**4. Pushing the Submodules**
+## 3. Add Submodules  
 ```
-    git add .
-    git commit -m "Added Submodules"
-    git push
-```
+git submodule add "git@github.com:rishuu42/CSSSide.git"  
+git submodule add "git@github.com:rishuu42/JSSide.git"  
+```  
 
-**5. Edit the content in CSS File and follow using these commands**
+## 4. Push Submodules  
 ```
-    git add .
-    git commit -m "CSS updates"
-    git push
-```
-**6. Now Update the Submodules**
-```
-    git submodule update --remote --merge
-```
+git add .  
+git commit -m "Added Submodules"  
+git push  
+```  
 
-**7. Stage and Push the Commits**
+## 5. Update CSS File & Commit  
 ```
-    git add .
-    git commit -m "CSS updates"
-    git push
-```
+git add .  
+git commit -m "CSS updates"  
+git push  
+```  
 
-**8. Edit the content in JS File and follow using these commands**
+## 6. Update Submodules  
 ```
-    git add .
-    git commit -m "JS updates"
-    git push
-```
-**9. Now Update the Submodules**
-```
-    git submodule update --remote --merge
-```
+git submodule update --remote --merge  
+```  
 
-**10. Stage and Push the Commits**
+## 7. Stage & Push Changes  
 ```
-    git add .
-    git commit -m "CSS updates"
-    git push
-```
+git add .  
+git commit -m "CSS updates"  
+git push  
+```  
 
-**11. Done**
+## 8. Update JS File & Commit  
+```
+git add .  
+git commit -m "JS updates"  
+git push  
+```  
+
+## 9. Update Submodules Again  
+```
+git submodule update --remote --merge  
+```  
+
+## 10. Final Commit  
+```
+git add .  
+git commit -m "CSS updates"  
+git push  
+```  
+
+## 11. Done

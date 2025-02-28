@@ -1,96 +1,95 @@
-# DevOps Lab 3
-# GIT BASICS
+# DevOps Lab 3: Git Basics  
 
-## Using SSH and HTTP for Git
-## Name: Rishitt Gupta  
+## Using SSH and HTTP for Git  
+
+## Details  
+**Name:** Rishitt Gupta  
 **SAP ID:** 500107002  
 **Enrollment Number:** R2142220352  
 **Batch:** Full Stack AI B1 Hons  
 
----
+---  
 
-### SSH Key Setup
+## SSH Key Setup  
 
-Using SSH, we need both public and private keys to clone repositories securely.
-
-#### 1. Generating SSH Key
-```sh
+### 1. Generate SSH Key  
+```
 ssh-keygen -t ed25519 -C "your_email@example.com"
+```  
+Verify the key:  
 ```
-
-Verify the key:
-```sh
 ls ~/.ssh
-```
+```  
 
-#### 2. Reading the SSH Key
-```sh
+### 2. Read the SSH Key  
+```
 cat ~/.ssh/id_ed25519.pub
-```
+```  
 
-#### 3. Adding SSH Key to SSH-Agent
-```sh
+### 3. Add SSH Key to SSH-Agent  
+```
 ssh-add ~/.ssh/id_ed25519
+```  
+
+### 4. Add the Key to GitHub  
+- Go to **GitHub Settings → SSH and GPG keys → Add a new key**  
+- Copy and paste `id_ed25519.pub`  
+
+## Clone Repository  
+
+### Using SSH  
 ```
-
-#### 4. Adding the Key to GitHub
-- Go to **GitHub Settings → SSH and GPG keys → Add a new key**
-- Copy and paste `id_ed25519.pub`
-
-### Cloning Repository Using SSH
-```sh
 git clone git@github.com:username/repository.git
-```
+```  
 
-### Cloning Repository Using HTTP
-```sh
+### Using HTTP  
+```
 git clone https://github.com/username/repository.git
+```  
+
+---  
+
+## Git Workflow  
+
+### 1. Initialize and Clone  
 ```
-Git will prompt for credentials if needed.
-
----
-
-## Git Workflow
-
-### 1. Initialize and Clone Repository
-```sh
-git init
+git init  
 git clone <repository-url>
-```
+```  
 
-### 2. Working on a Repository
-1. Navigate to the repository.
-2. Make changes.
-3. Add changes:
-   ```sh
+### 2. Work on Repository  
+1. Navigate to the repository.  
+2. Make changes.  
+3. Add changes:  
+   ```
    git add .
+   ```  
+4. Commit changes:  
    ```
-4. Commit changes:
-   ```sh
    git commit -m "Your commit message"
-   ```
+   ```  
 
-### 3. Resolving Merge Conflicts
-Always pull before pushing:
-```sh
-git pull origin main
-git merge
-git push origin main
+### 3. Resolve Merge Conflicts  
+Always pull before pushing:  
 ```
+git pull origin main  
+git merge  
+git push origin main  
+```  
 
----
+---  
 
-## VIM Commands (for Git commit messages)
-```sh
-i → Insert mode
-q → Quit
-esc → Changing modes
-shift + v → Visual mode
-  - y → Copy / shift + insert
-  - p → Paste
-H, J, K, L → Move left, up, down, right
-dd → Delete the line
-u → Undo
-/word → Search
-esc + :wq → Save and quit
+## VIM Commands (for Git commit messages)  
 ```
+i → Insert mode  
+q → Quit  
+esc → Changing modes  
+shift + v → Visual mode  
+  - y → Copy / shift + insert  
+  - p → Paste  
+H, J, K, L → Move left, up, down, right  
+dd → Delete the line  
+u → Undo  
+/word → Search  
+esc + :wq → Save and quit  
+```  

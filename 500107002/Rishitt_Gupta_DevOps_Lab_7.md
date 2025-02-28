@@ -5,37 +5,46 @@
 **Enrollment Number:** R2142220352  
 **Batch:** Full Stack AI B1 Hons  
 
-## GIT Fork and Open-Source  
+---
 
-### Steps:
+## **Git Fork and Open-Source Contribution**
 
-1. Open the desired repository to fork  
-2. Click on Fork 
-3. Add a description and create your forked repository  
-4. Clone the repository locally
-    ```gitbash
-    git clone "git@github.com:upessocs/DevOpsLabFSAI-B1H.git"
-    ```
+### **1. Forking a Repository**
+- Open the desired repository on GitHub.  
+- Click on **Fork** (top-right corner).  
+- Add a description and create your forked repository.  
 
-5. Create a folder with your SAP ID 
-    ```
-    mkdir 500107002
-    cd "./500107002"
-    ```
-6. Create a `README.md` file
-    ```
-    touch README.md
-    ```
-7. Edit the `README.md` file
-    ```
-    nano README.md
-    ```
+### **2. Clone the Forked Repository**
+```sh
+git clone "git@github.com:upessocs/DevOpsLabFSAI-B1H.git"
+cd DevOpsLabFSAI-B1H
+```
 
-8. Commit the change
-    ```
-    git add .
-    git commit -m "{message}"
-    git push
-    ```
-9. Generate a pull request  
-10. Pull request generated, now moderators can review and accept the changes  
+### **3. Create Your Own Folder**
+```sh
+mkdir 500107002
+cd 500107002
+```
+
+### **4. Add a `README.md` File**
+```sh
+touch README.md
+nano README.md
+```
+Edit the file and add some content, then save and exit.
+
+### **5. Commit and Push Changes**
+```sh
+git add .
+git commit -m "Added my folder and README"
+git push origin main
+```
+
+### **6. Create a Pull Request**
+- Go to your forked repository on GitHub.  
+- Click on **Compare & pull request**.  
+- Add a meaningful description and submit the pull request.  
+
+### **7. Wait for Review**
+- The project maintainers will review your changes.  
+- Once approved, your contributions will be merged into the main repository.

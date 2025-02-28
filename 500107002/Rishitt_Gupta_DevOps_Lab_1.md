@@ -1,42 +1,34 @@
-# DevOps Lab 1  
-# CI/CD Basics  
+# DevOps Lab 1: CI/CD Basics  
 
-Continuous Integration (CI) and Continuous Deployment (CD) streamline software development by automating testing and deployment.
+CI/CD automates software development, ensuring faster, error-free deployments.  
 
-## Name: Rishitt Gupta  
+## Details  
+**Name:** Rishitt Gupta  
 **SAP ID:** 500107002  
 **Enrollment Number:** R2142220352  
 **Batch:** Full Stack AI B1 Hons  
 
----
+---  
 
-## **1. What is CI/CD?**  
-- **Continuous Integration (CI):** Developers merge code frequently, and automated tests run to detect issues early.  
-- **Continuous Deployment (CD):** Code changes are automatically deployed to production after passing all tests.
+## 1. What is CI/CD?  
+- **CI (Continuous Integration):** Automates code merging and testing.  
+- **CD (Continuous Deployment):** Deploys tested code automatically.  
 
-## **2. Install Git & CI/CD Tools**  
-Install Git and CI/CD tools 
-```sh
-sudo apt update && sudo apt install git -y
+## 2. Install Git & CI/CD Tools  
 ```
+sudo apt update && sudo apt install git -y
+```  
 
-## **3. Set Up a Git Repository**  
-1. Initialize Git:  
-   ```sh
-   git init
-   ```
-2. Add remote repository:  
-   ```sh
-   git remote add origin <repo-url>
-   ```
-3. Commit and push changes:  
-   ```sh
-   git add .
-   git commit -m "Initial commit"
-   git push origin main
-   ```
+## 3. Set Up a Git Repository  
+```
+git init  
+git remote add origin <repo-url>  
+git add .  
+git commit -m "Initial commit"  
+git push origin main  
+```  
 
-## **4. Benefits of CI/CD**  
-- **Faster Deployment**: Automates the software release process.  
-- **Early Bug Detection**: Catches errors before deployment.  
-- **Efficiency**: Reduces manual intervention.  
+## 4. Why CI/CD?  
+- **Faster releases** with automation.  
+- **Fewer bugs** through early detection.  
+- **Higher efficiency** by reducing manual work.  

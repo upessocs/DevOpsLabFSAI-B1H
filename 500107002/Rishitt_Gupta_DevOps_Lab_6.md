@@ -5,14 +5,19 @@
 **Enrollment Number:** R2142220352  
 **Batch:** Full Stack AI B1 Hons  
 
-### Git FastAPI - Dockerization  
+---
 
-1. Install pipenv in WSL  
-2. Install FastAPI and Uvicorn  
-3. Write a FastAPI application with two GET endpoints:  
-   - One returning a fixed JSON response with name and location  
-   - Another that takes a path parameter and returns it in the response  
+## **Git FastAPI - Dockerization**  
 
+### **1. Install Dependencies**  
+Install `pipenv` in WSL, then install FastAPI and Uvicorn:  
+```sh
+pip install pipenv
+pipenv install fastapi uvicorn
+```
+
+### **2. Write a FastAPI Application**  
+Create a `main.py` file with the following code:  
 ```python
 from fastapi import FastAPI
 
@@ -25,51 +30,52 @@ def read_root():
 @app.get("/{data}")
 def read_data(data: str):
     return {"hi": data, "Location": "Delhi"}
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run("main:app", host="0.0.0.0", reload=True, port=80)
 ```
 
-4. Run this command to host the application:
-   ```
-   uvicorn main:app
-   ```
+### **3. Run the FastAPI Application**  
+```sh
+python main.py
+```
+OR  
+```sh
+uvicorn main:app
+```
 
-5. Add this code to the Python file:
-   ```python
-   if __name__ == "__main__":
-       uvicorn.run("main:app", host="0.0.0.0", reload=True, port=80)
-   ```
+---
 
-6. Run the command:
-   ```
-   python main.py
-   ```
+## **Dockerization**
 
-7. Create a Dockerfile:
-   ```dockerfile
-   FROM ubuntu
+### **4. Create a `Dockerfile`**  
+```dockerfile
+FROM ubuntu
 
-   RUN apt update -y
-   RUN apt install python3 python3-pip pipenv -y
+RUN apt update -y
+RUN apt install python3 python3-pip pipenv -y
 
-   WORKDIR /app
-   COPY . /app/
-   RUN pipenv install -r requirements.txt
+WORKDIR /app
+COPY . /app/
+RUN pipenv install -r requirements.txt
 
-   EXPOSE 80
-   CMD pipenv run python3 ./main.py
-   ```
+EXPOSE 80
+CMD pipenv run python3 ./main.py
+```
 
-8. Create a `requirements.txt` file:
-   ```
-   uvicorn
-   fastapi
-   ```
+### **5. Create a `requirements.txt` File**  
+```txt
+uvicorn
+fastapi
+```
 
-9. Use the build command to create a Docker image  
-   ```
-      docker build -t test02 .
-   ```
-
-10. Use the run command to execute the Docker image
-   ```
-      docker run -p 80:80 test02:latest
-   ```
+### **6. Build and Run the Docker Container**  
+- **Build the Docker image:**  
+  ```sh
+  docker build -t test02 .
+  ```
+- **Run the container:**  
+  ```sh
+  docker run -p 80:80 test02:latest
+  ```
