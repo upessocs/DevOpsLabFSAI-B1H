@@ -34,10 +34,6 @@ Create and switch branches:
 git branch featureA  
 git checkout featureA  
 ```  
-Shortcut for creating & switching:  
-```
-git checkout -b featureB  
-```  
 
 ## 5. Merging and Rebasing  
 Merge `featureB` into `main`:  
@@ -53,8 +49,4 @@ git rebase main
 Undo changes (hard reset):  
 ```
 git reset --hard <commit-hash>  
-```  
-
-## 6. Final Thoughts  
-- **Merge** keeps branch history, **rebase** makes it linear.  
-- Always **commit and push** frequently!
+```

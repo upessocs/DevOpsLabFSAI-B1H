@@ -14,7 +14,7 @@
 
 ### 1. Generate SSH Key  
 ```
-ssh-keygen -t ed25519 -C "your_email@example.com"
+ssh-keygen -t ed25519 -C "rishittg7@gmail.com"
 ```  
 Verify the key:  
 ```
@@ -39,12 +39,12 @@ ssh-add ~/.ssh/id_ed25519
 
 ### Using SSH  
 ```
-git clone git@github.com:username/repository.git
+git clone git@github.com:rishuu42/repository.git
 ```  
 
 ### Using HTTP  
 ```
-git clone https://github.com/username/repository.git
+git clone https://github.com/rishuu42/repository.git
 ```  
 
 ---  
@@ -66,7 +66,7 @@ git clone <repository-url>
    ```  
 4. Commit changes:  
    ```
-   git commit -m "Your commit message"
+   git commit -m "{Your commit message}"
    ```  
 
 ### 3. Resolve Merge Conflicts  

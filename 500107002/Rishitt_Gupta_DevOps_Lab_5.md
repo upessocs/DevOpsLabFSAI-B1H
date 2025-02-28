@@ -64,6 +64,4 @@ git submodule update --remote --merge
 git add .  
 git commit -m "CSS updates"  
 git push  
-```  
-
-## 11. Done
+``` 
