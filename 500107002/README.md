@@ -2,7 +2,7 @@ Hello, I am Rishitt Gupta. This is my DevOps Lab File.
 
 | No | Experiment                                | Link |
 |----|-------------------------------------------|------|
-| 1  | CI/CD Basics                              |      |
+| 1  | CI/CD Basics                              | [Lab 1](./Rishitt_Gupta_DevOps_Lab_2.md) |
 | 2  | WSL                                       | [Lab 2](./Rishitt_Gupta_DevOps_Lab_2.md) |
 | 3  | GIT Basics                                | [Lab 3](./Rishitt_Gupta_DevOps_Lab_3.md) |
 | 4  | GIT Branching, Merge, Rebase              | [Lab 4](./Rishitt_Gupta_DevOps_Lab_4.md) |
