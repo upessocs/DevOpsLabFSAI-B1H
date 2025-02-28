@@ -36,38 +36,7 @@ sudo apt update && sudo apt install git -y
    git push origin main
    ```
 
-## **4. Configure CI/CD Pipeline**  
-For GitHub Actions, create `.github/workflows/main.yml` and add:  
-```yaml
-name: CI/CD Pipeline
-on: [push, pull_request]
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '16'
-      - name: Install dependencies
-        run: npm install
-      - name: Run tests
-        run: npm test
-```
-
-## **5. Triggering CI/CD Pipeline**  
-Push code changes to trigger CI/CD:  
-```sh
-git push origin main
-```
-Check workflow logs in **GitHub Actions**.
-
-## **6. Benefits of CI/CD**  
+## **4. Benefits of CI/CD**  
 - **Faster Deployment**: Automates the software release process.  
 - **Early Bug Detection**: Catches errors before deployment.  
 - **Efficiency**: Reduces manual intervention.  
-
-## **7. Disable CI/CD Pipeline (If Needed)**  
-- Remove `.github/workflows/main.yml`  
-- Disable actions from GitHub repository settings.  
