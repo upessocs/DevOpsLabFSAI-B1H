@@ -1,13 +1,8 @@
 # DevOps Lab 2
 # Installing WSL (Windows Subsystem for Linux)
 
-WSL allows you to run Linux on Windows without a virtual machine. Below is a step-by-step guide to installing WSL on Windows.
-## Name: Rishitt Gupta  
-**SAP ID:** 500107002  
-**Enrollment Number:** R2142220352  
-**Batch:** Full Stack AI B1 Hons  
+WSL allows you to run Linux on Windows without a virtual machine.
 
----
 ## **1. Install WSL**
 Run in **PowerShell (Admin)**:  
 ```sh
