@@ -1,0 +1,54 @@
+[33mcommit 48fa5ea839b1352add7363a8511be7767ead1a05[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: adx04 <ayush2004dey@gmail.com>
+Date:   Fri Feb 28 11:40:56 2025 +0530
+
+    version3
+
+[33mcommit 81832d039c6109462f31dd856936d28ed7e42f40[m
+Author: adx04 <ayush2004dey@gmail.com>
+Date:   Fri Feb 28 11:39:12 2025 +0530
+
+    version2
+
+[33mcommit 8bc52698ef90cd8308727336891eb6eaa6ca66a9[m
+Author: adx04 <ayush2004dey@gmail.com>
+Date:   Fri Feb 28 11:37:38 2025 +0530
+
+    version1
+
+[33mcommit 5e1d21aa6015b93cb91d52a6947dff547c47c99c[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: adx04 <ayush2004dey@gmail.com>
+Date:   Fri Feb 28 11:24:58 2025 +0530
+
+    first commit
+
+[33mcommit 84a77ec57afe6a1f8b8aa5957b8b6107e3ec01da[m
+Merge: 63a8c0b 04db650
+Author: Ayush Dey <122734846+adx04@users.noreply.github.com>
+Date:   Fri Jan 17 15:04:56 2025 +0530
+
+    Merge branch 'main' of github.com:adx04/devopslab
+
+[33mcommit 04db65059cb6756fef6b20dcc725aa91b5c080b3[m
+Author: Ayush Dey <122734846+adx04@users.noreply.github.com>
+Date:   Fri Jan 17 14:57:54 2025 +0530
+
+    adding home file
+
+[33mcommit 26fd35b6253d90be675816af5b0155c34d21c74a[m
+Author: Ayush Dey <122734846+adx04@users.noreply.github.com>
+Date:   Fri Jan 17 14:56:03 2025 +0530
+
+    adding office file
+
+[33mcommit 63a8c0b99cdd6c35e6f304ebc848ca014d25dad6[m
+Author: Ayush Dey <122734846+adx04@users.noreply.github.com>
+Date:   Fri Jan 17 14:52:47 2025 +0530
+
+    adding office file
+
+[33mcommit 2baaf010e865756a6e01c993a6a62c6012d023d9[m
+Author: Ayush Dey <122734846+adx04@users.noreply.github.com>
+Date:   Fri Jan 10 14:56:41 2025 +0530
+
+    Initial commit
